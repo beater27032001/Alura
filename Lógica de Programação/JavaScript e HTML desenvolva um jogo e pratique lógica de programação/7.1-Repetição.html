@@ -1,0 +1,22 @@
+<meta charset="utf-8">
+
+<script>
+
+	function pularLinha(){
+		document.write("<br>");
+		document.write("<br>");
+	}
+
+	function mostrar(msg){
+		document.write(msg);
+		pularLinha();
+	}
+
+	var anoCopa = 1930;
+
+	while(anoCopa <= 2023){
+		mostrar("Teve copa em " + anoCopa);
+		anoCopa = anoCopa + 4;
+	}
+
+</script>
