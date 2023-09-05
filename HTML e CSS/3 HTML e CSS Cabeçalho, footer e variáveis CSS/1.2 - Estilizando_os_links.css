@@ -49,16 +49,22 @@ body{
     gap: 32px;
 }
 
+.apt_links{
+    font: 'Krona One', sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+}
+
 .btn{
-    background-color: #22D4FD;
     width: 280px;
     text-align: center;
-    border-radius: 16px;
+    border: 2px solid #22D4FD;
+    border-radius: 8px;
     font-size: 24px;
     font-weight: 600;
     padding: 21.5px 0;
     text-decoration: none;
-    color: #000000;
+    color: #f6f6f6;
     font-family: 'Montserrat', sans-serif;
 
 }
