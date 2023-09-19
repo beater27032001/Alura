@@ -34,7 +34,7 @@ public class PatientRepository {
     }
 
     public ArrayList<Patient> searchAllPatient(){
-        return new ArrayList<>(patients)
+        return new ArrayList<>(patients);
     }
 
     public Patient searchByName(String name){
