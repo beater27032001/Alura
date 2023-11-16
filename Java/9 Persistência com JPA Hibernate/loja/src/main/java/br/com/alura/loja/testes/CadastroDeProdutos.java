@@ -13,7 +13,7 @@ public class CadastroDeProdutos {
 
         celular.setNome("Xiomi Redmi");
         celular.setDescricao("Muito legal");
-        celular.setPreco(new BigDecimal(900));
+        celular.setPreco(new BigDecimal("900"));
 
         EntityManagerFactory factory = Persistence.createEntityManagerFactory("loja");
         EntityManager em = factory.createEntityManager();
